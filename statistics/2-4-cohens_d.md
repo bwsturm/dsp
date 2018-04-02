@@ -27,3 +27,5 @@ CohenEffectSize(firsts.totalwgt_lb,others.totalwgt_lb)
 >> -0.088672927072602
 ```
 
+To solve this problem, I used code found in the ThinkStats repo.  I did not write the CohenEffectSize() function, however, I do understand how it works.  As the book indicates, Cohen's D is a statistic that describes the difference between two groups.  In this case, the difference in the means is -0.089 standard deviations.  In this case, first pregnancies typically result in lighter babies.  The Cohen's D difference for birth weights has a greater magnitude than it has for pregnancy length.   
+
