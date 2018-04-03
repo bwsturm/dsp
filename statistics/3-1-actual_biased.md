@@ -21,6 +21,7 @@ thinkplot.Pmfs([num_children_pmf, num_children_pmf_biased])
 thinkplot.Config(xlabel='Number of Children', ylabel='PMF')
 ```
 
+![Number of Children Plot](https://github.com/bwsturm/dsp/blob/master/statistics/figures/num_children_pmf.png)
 
 
 ```Python
