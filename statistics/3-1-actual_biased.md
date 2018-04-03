@@ -31,3 +31,5 @@ print('The mean for the biased distribution is: {}'.format(num_children_pmf_bias
 >> The mean for the actual distribution is: 1.024205155043831
 >> The mean for the biased distribution is: 2.403679100664282
 ```
+
+This problem asks us to plot the distribution for the number of children under 18 in the household using the data found in the NSFG data set.  In the first case, we are to plot the actual distribution (labeled 'actual') and in the second case we are to plot the biased distribution (labeled 'biased').  I employed the BiasPmf() function found in the ThinkStats repository in order to generate the biased probability mass function.  Then, it was a simple matter to generate the plot using the ThinkPlot library.  Examining the plot, it is clear that the biased distribution is skewed to the right (i.e., greater number of children) in comparison to the actual distribution.  This makes sense, because families with no children will be underrepresented in the biased distribution.  This results in a larger mean for the biased distribution (2.41 children) versus the actual distribution (1.02 children).
