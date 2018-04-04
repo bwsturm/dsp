@@ -86,7 +86,25 @@ Bayes' Theorem is an important tool in understanding what we really know, given 
 
 Elvis Presley had a twin brother who died at birth.  What is the probability that Elvis was an identical twin? Assume we observe the following probabilities in the population: fraternal twin is 1/125 and identical twin is 1/300.  
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+Using Bayes Rule, I derived a solution to this problem.
+
+P(IT | T) = ?  
+here, IT is "indentical twin" and T is "twin" (fraternal or identical)
+
+prior probability: P(IT) = 1/300   -->  P(!IT) = 299/300
+sensitivity: P(T | IT) = 1
+specitivity: P(!T | !IT) = 124/125   -->  P(T | !IT) = 1/125
+
+joint probabilities:
+P(T, IT) = P(IT) * P(T | IT) = 1/300 = 0.00333
+P(T, !IT) = P(~IT) * P(T | !IT) = 299/300 * 1/125 = 0.00797
+P(T) = P(T, IT) + P(T, !IT) = 0.00333 + 0.00797 = 0.0113
+
+therefore,
+P(IT | T) = P(T, IT) / P(T) = 0.295
+P(!IT | T) = P(T, !IT) / P(T) = 0.705
+
+To summarize, the probability that Elvis was an identical twin given that he had a twin brother is 0.295.
 
 ---
 
