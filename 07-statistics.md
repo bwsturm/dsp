@@ -111,7 +111,7 @@ To summarize, the probability that Elvis was an identical twin given that he had
 ### Q6. Bayesian &amp; Frequentist Comparison  
 How do frequentist and Bayesian statistics compare?
 
-Frequentist and Bayesian statistics both make use of the data to determine the probability of a certain outcome.  The difference is that Bayesians try to use prior information to compute the probability.  A great blog post that I found that provides an example of Bayesian versus Frequentist Statistics is the following:  [Are you a Bayesian or a Frequentist](http://www.behind-the-enemy-lines.com/2008/01/are-you-bayesian-or-frequentist-or.html)
+Frequentist and Bayesian statistics both make use of the data to determine the probability of a certain outcome.  The difference is that Bayesians try to use prior information to compute the probability.  A great blog post that I found that provides an example of Bayesian versus Frequentist Statistics is the following:  [Are you a Bayesian or a Frequentist?](http://www.behind-the-enemy-lines.com/2008/01/are-you-bayesian-or-frequentist-or.html)
 
 A funny cartoon that I found is below:
 ![Bayes Fun](https://github.com/bwsturm/dsp/blob/master/statistics/figures/bayesfun.jpg) 
