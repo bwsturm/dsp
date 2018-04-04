@@ -88,21 +88,21 @@ Elvis Presley had a twin brother who died at birth.  What is the probability tha
 
 Using Bayes Rule, I derived a solution to this problem.
 
-P(IT | T) = ?  
-here, IT is "indentical twin" and T is "twin" (fraternal or identical)
+P(IT | T) = ?    
+here, IT is "indentical twin" and T is "twin" (fraternal or identical)  
 
-prior probability: P(IT) = 1/300   -->  P(!IT) = 299/300
-sensitivity: P(T | IT) = 1
-specitivity: P(!T | !IT) = 124/125   -->  P(T | !IT) = 1/125
+prior probability: P(IT) = 1/300   -->  P(!IT) = 299/300  
+sensitivity: P(T | IT) = 1  
+specitivity: P(!T | !IT) = 124/125   -->  P(T | !IT) = 1/125  
 
-joint probabilities:
-P(T, IT) = P(IT) * P(T | IT) = 1/300 = 0.00333
-P(T, !IT) = P(~IT) * P(T | !IT) = 299/300 * 1/125 = 0.00797
-P(T) = P(T, IT) + P(T, !IT) = 0.00333 + 0.00797 = 0.0113
+joint probabilities:  
+P(T, IT) = P(IT) * P(T | IT) = 1/300 = 0.00333  
+P(T, !IT) = P(~IT) * P(T | !IT) = 299/300 * 1/125 = 0.00797  
+P(T) = P(T, IT) + P(T, !IT) = 0.00333 + 0.00797 = 0.0113  
 
-therefore,
-P(IT | T) = P(T, IT) / P(T) = 0.295
-P(!IT | T) = P(T, !IT) / P(T) = 0.705
+therefore,  
+P(IT | T) = P(T, IT) / P(T) = 0.295  
+P(!IT | T) = P(T, !IT) / P(T) = 0.705  
 
 To summarize, the probability that Elvis was an identical twin given that he had a twin brother is 0.295.
 
